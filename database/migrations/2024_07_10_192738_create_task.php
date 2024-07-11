@@ -16,7 +16,7 @@ return new class extends Migration
             $table->char('title', 255);
             $table->text('description');
             $table->integer('status');
-            $table->timestamp('date_deadline');
+            $table->dateTime('date_deadline');
             $table->timestamps();
         });
     }
